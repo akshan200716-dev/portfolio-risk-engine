@@ -1,0 +1,63 @@
+strategy,control,status,detail
+Equal Weight,Target weights sum to 100%,PASS,max deviation 0.00e+00
+Equal Weight,Long-only (no negative weights),PASS,min weight 8.33e-02
+Equal Weight,Concentration cap (40%),PASS,largest weight 8.33%
+Equal Weight,Return reconciliation (holdings x returns),PASS,max abs difference vs independent recomputation 1.14e-16
+Equal Weight,Cost = turnover x cost rate,PASS,max difference 1.36e-20
+Equal Weight,Trade executes after signal date,PASS,"minimum gap 1 calendar day(s), lag setting 1"
+Equal Weight,No missing / infinite returns,PASS,0 bad values
+Equal Weight,No look-ahead (future-data perturbation),PASS,max difference before 2018-07-24 after scrambling all later data = 0.00e+00
+Inverse Volatility,Target weights sum to 100%,PASS,max deviation 4.44e-16
+Inverse Volatility,Long-only (no negative weights),PASS,min weight 2.21e-02
+Inverse Volatility,Concentration cap (40%),PASS,largest weight 32.39%
+Inverse Volatility,Return reconciliation (holdings x returns),PASS,max abs difference vs independent recomputation 2.22e-16
+Inverse Volatility,Cost = turnover x cost rate,PASS,max difference 2.71e-20
+Inverse Volatility,Trade executes after signal date,PASS,"minimum gap 1 calendar day(s), lag setting 1"
+Inverse Volatility,No missing / infinite returns,PASS,0 bad values
+Inverse Volatility,No look-ahead (future-data perturbation),PASS,max difference before 2018-07-24 after scrambling all later data = 0.00e+00
+Min Variance,Target weights sum to 100%,PASS,max deviation 2.22e-16
+Min Variance,Long-only (no negative weights),PASS,min weight 0.00e+00
+Min Variance,Concentration cap (40%),PASS,largest weight 40.00%
+Min Variance,Return reconciliation (holdings x returns),PASS,max abs difference vs independent recomputation 1.13e-16
+Min Variance,Cost = turnover x cost rate,PASS,max difference 1.08e-19
+Min Variance,Trade executes after signal date,PASS,"minimum gap 1 calendar day(s), lag setting 1"
+Min Variance,No missing / infinite returns,PASS,0 bad values
+Min Variance,No look-ahead (future-data perturbation),PASS,max difference before 2018-07-24 after scrambling all later data = 0.00e+00
+Max Sharpe,Target weights sum to 100%,PASS,max deviation 3.33e-16
+Max Sharpe,Long-only (no negative weights),PASS,min weight 0.00e+00
+Max Sharpe,Concentration cap (40%),PASS,largest weight 40.00%
+Max Sharpe,Return reconciliation (holdings x returns),PASS,max abs difference vs independent recomputation 1.11e-16
+Max Sharpe,Cost = turnover x cost rate,PASS,max difference 2.17e-19
+Max Sharpe,Trade executes after signal date,PASS,"minimum gap 1 calendar day(s), lag setting 1"
+Max Sharpe,No missing / infinite returns,PASS,0 bad values
+Max Sharpe,No look-ahead (future-data perturbation),PASS,max difference before 2018-07-24 after scrambling all later data = 0.00e+00
+Risk Parity,Target weights sum to 100%,PASS,max deviation 2.22e-16
+Risk Parity,Long-only (no negative weights),PASS,min weight 1.67e-02
+Risk Parity,Concentration cap (40%),PASS,largest weight 33.97%
+Risk Parity,Return reconciliation (holdings x returns),PASS,max abs difference vs independent recomputation 1.14e-16
+Risk Parity,Cost = turnover x cost rate,PASS,max difference 2.71e-20
+Risk Parity,Trade executes after signal date,PASS,"minimum gap 1 calendar day(s), lag setting 1"
+Risk Parity,No missing / infinite returns,PASS,0 bad values
+Risk Parity,No look-ahead (future-data perturbation),PASS,max difference before 2018-07-24 after scrambling all later data = 0.00e+00
+HRP,Target weights sum to 100%,PASS,max deviation 2.22e-16
+HRP,Long-only (no negative weights),PASS,min weight 2.98e-03
+HRP,Concentration cap (40%),PASS,largest weight 40.00%
+HRP,Return reconciliation (holdings x returns),PASS,max abs difference vs independent recomputation 1.14e-16
+HRP,Cost = turnover x cost rate,PASS,max difference 5.42e-20
+HRP,Trade executes after signal date,PASS,"minimum gap 1 calendar day(s), lag setting 1"
+HRP,No missing / infinite returns,PASS,0 bad values
+HRP,No look-ahead (future-data perturbation),PASS,max difference before 2018-07-24 after scrambling all later data = 0.00e+00
+60/40,Target weights sum to 100%,PASS,max deviation 0.00e+00
+60/40,Long-only (no negative weights),PASS,min weight 0.00e+00
+60/40,Return reconciliation (holdings x returns),PASS,max abs difference vs independent recomputation 1.11e-16
+60/40,Cost = turnover x cost rate,PASS,max difference 1.36e-20
+60/40,Trade executes after signal date,PASS,"minimum gap 1 calendar day(s), lag setting 1"
+60/40,No missing / infinite returns,PASS,0 bad values
+60/40,No look-ahead (future-data perturbation),PASS,max difference before 2018-07-24 after scrambling all later data = 0.00e+00
+SPY Buy & Hold,Target weights sum to 100%,PASS,max deviation 0.00e+00
+SPY Buy & Hold,Long-only (no negative weights),PASS,min weight 0.00e+00
+SPY Buy & Hold,Return reconciliation (holdings x returns),PASS,max abs difference vs independent recomputation 0.00e+00
+SPY Buy & Hold,Cost = turnover x cost rate,PASS,max difference 0.00e+00
+SPY Buy & Hold,Trade executes after signal date,PASS,"minimum gap 1 calendar day(s), lag setting 1"
+SPY Buy & Hold,No missing / infinite returns,PASS,0 bad values
+SPY Buy & Hold,No look-ahead (future-data perturbation),PASS,max difference before 2018-07-24 after scrambling all later data = 0.00e+00

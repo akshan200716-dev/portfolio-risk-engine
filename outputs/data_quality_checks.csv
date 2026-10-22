@@ -1,0 +1,9 @@
+check,status,value,detail
+Index unique & sorted,PASS,0.0,0 duplicate dates; sorted=True
+Prices strictly positive,PASS,0.0,tickers affected: none
+Missing observations,PASS,0.0,worst ticker SPY at 0.00%
+Stale prices,PASS,2.0,longest unchanged run 2 days (QQQ)
+Extreme daily moves (>|25%|),PASS,0.0,"flagged for review, not removed"
+Robust outliers (MAD z>12),WARN,69.0,informational: fat tails produce some; clusters merit review
+Calendar gaps,PASS,5.0,largest gap 5 calendar days
+Sufficient history,PASS,4676.0,4676 rows (minimum 300)

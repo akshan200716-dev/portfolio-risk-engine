@@ -1,0 +1,4 @@
+Method,Observations,Exceptions,Expected,Exception rate,Kupiec LR,Kupiec p-value,Verdict,Basel zone (last 250d)
+Historical,4153,53,41.5,0.01276185889718276,2.9428690306090743,0.08625739795820453,Accept,Green
+Parametric (normal),4153,76,41.5,0.01830002407897905,23.206029734316644,1.4554027681912274e-06,Reject (misspecified),Green
+Cornish-Fisher,4153,45,41.5,0.010835540573079701,0.2851083276419786,0.5933724183809455,Accept,Green
