@@ -68,7 +68,20 @@ run_analysis.py    command-line entry point
 
 ## Results
 
-Run `python run_analysis.py --source yfinance`, then paste the table from `outputs/investment_memo.md` here.
+Real data (Yahoo Finance adjusted prices), June 2007 to December 2025, net of 10 bp trading costs:
+
+| Strategy | CAGR | Vol | Sharpe | Max drawdown | Calmar | Turnover/yr |
+|---|---:|---:|---:|---:|---:|---:|
+| Equal Weight | 7.1% | 12.6% | 0.45 | -34.5% | 0.20 | 33% |
+| Inverse Volatility | 5.8% | 8.9% | 0.46 | -23.9% | 0.24 | 45% |
+| Min Variance | 3.5% | 6.0% | 0.26 | -16.7% | 0.21 | 90% |
+| Max Sharpe | 5.4% | 16.2% | 0.28 | -46.8% | 0.12 | 488% |
+| Risk Parity | 5.4% | 7.8% | 0.45 | -20.4% | 0.26 | 52% |
+| HRP | 4.4% | 6.7% | 0.38 | -19.8% | 0.22 | 131% |
+| 60/40 | 8.8% | 12.0% | 0.59 | -30.1% | 0.29 | 22% |
+| SPY Buy & Hold | 12.1% | 19.9% | 0.57 | -47.2% | 0.26 | 0% |
+
+**Takeaways:** Risk-based methods roughly halved the worst drawdown relative to the S&P 500, but a simple 60/40 mix had the best risk-adjusted return. Maximum-Sharpe optimisation was the least stable (488% annual turnover). Bootstrap Sharpe intervals overlap across most strategies, so small ranking differences are not statistically reliable.
 
 ## Limitations
 
